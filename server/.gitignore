@@ -1,0 +1,9 @@
+# node
+node_modules
+yarn.lock
+
+# database
+database.sql
+
+# build
+dist

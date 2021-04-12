@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev:build": "tsc --watch",
+    "dev:server": "nodemon .",
+    "start": "node .",
+    "test:discord": "node dist/discord.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "@types/ws": "^7.4.1"
+  },
+  "dependencies": {
+    "sqlite": "^4.0.21",
+    "sqlite3": "^5.0.2",
+    "ws": "^7.4.4"
+  }
+}
